@@ -20,7 +20,7 @@ To run the project, we can use IntelliJ and run the tests there.<br/>
 The Webdriver is located in the **src/test/resources/driver** directory.<br />
 
 ## Design decisions
-The project was designed to follow the page object model, separating the packages (pages, runner and steps) and pages of the application into individual classes, and using them to interact with the application.
+The project was designed to follow the page object model, separating the packages (UI:pages, runner and steps. API:models, services and tests) and pages of the application into individual classes, and using them to interact with the application.
 
 ## Project limitations
 There is an error to correct in the part: <br />
